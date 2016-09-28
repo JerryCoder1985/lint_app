@@ -109,7 +109,7 @@ artifactory {
             repoKey = 'libs-release'
         }
     }
-    /*publish {
+    publish {
         repository {
             repoKey = 'oss-snapshot-local' //The Artifactory repository key to publish to
             username = bintray.user
@@ -121,6 +121,5 @@ artifactory {
             publications('mavenJava')
             publishArtifacts = true
         }
-    }*/
-
+    }
 }
